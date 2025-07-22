@@ -26,6 +26,7 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
+postgres_tool_test.py
 
 # PyInstaller
 *.manifest
@@ -78,3 +79,6 @@ yarn-error.log*
 *.key
 secrets.json
 config.json
+
+# PG dump
+pg_dump.sql
