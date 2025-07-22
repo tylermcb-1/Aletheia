@@ -1,3 +1,9 @@
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
-pydantic-ai==0.0.14
+fastapi>=0.110.0
+uvicorn>=0.23.1
+starlette>=0.27
+pydantic[email]>=2.11.7
+slack_sdk
+python-dotenv
+pytest
+mcp>=1.12.1
+fastmcp>=2.10.6
