@@ -51,6 +51,8 @@ def delete_postgres_database() -> bool:
     Returns:
         bool: True if the database was deleted successfully, False otherwise.
     """
+    global POSTGRES_TOOLS_INSTANCE
+
     if POSTGRES_TOOLS_INSTANCE is None:
         return False
 
